@@ -1,6 +1,7 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css);
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,10 +52,14 @@ table {
 }
 body {
   font-weight: 300;
-  font-family: 'NanumSquare_ac',sans-serif;
   color: black;
   line-height: 1.2;
+  font-family: 'NanumSquare', sans-serif
 }
+.normal		{ font-weight: 400 }
+.bold		{ font-weight: 700 }
+.bolder		{ font-weight: 800 }
+.light		{ font-weight: 300 }
 a {
   text-decoration:none;
   color:inherit;
