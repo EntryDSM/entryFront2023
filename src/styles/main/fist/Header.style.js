@@ -19,3 +19,16 @@ export const Title = styled.span`
   line-height: 20px;
   color: #242424;
 `;
+export const Button = styled.button`
+  width: 90px;
+  height: 36px;
+  left: 1246px;
+  top: 12px;
+
+  border: 0;
+  margin-left: 224px;
+  background: #f57278;
+  border-radius: 1000px;
+  color: white;
+  outline: none;
+`;
