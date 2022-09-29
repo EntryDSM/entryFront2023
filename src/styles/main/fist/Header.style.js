@@ -1,6 +1,8 @@
 import styled from "styled-components";
-
-export const Container = styled.div`
+/**
+ * Header 부분
+ */
+export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,3 +34,11 @@ export const Button = styled.button`
   color: white;
   outline: none;
 `;
+/**
+ * Main 부분
+ */
+export const MainContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
