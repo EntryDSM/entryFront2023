@@ -1,4 +1,4 @@
-import * as _ from "../../styles/main/fist/Header.style.js";
+import * as _ from "../../styles/main/First.style.js";
 
 function Header() {
   return (
