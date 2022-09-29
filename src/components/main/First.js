@@ -3,7 +3,7 @@ import * as _ from "../../styles/main/fist/Header.style.js";
 function Header() {
   return (
     <>
-      <_.Container>
+      <_.HeaderContainer>
         <EntryLogo/>
           <Stick/>
         <_.TitleContainer>
@@ -15,15 +15,15 @@ function Header() {
           <_.Title>MEMBER Q&A</_.Title>
         </_.TitleContainer>
         <_.Button>지원하기</_.Button>
-      </_.Container>
+      </_.HeaderContainer>
     </>
   );
 }
 function FirstMain() {
   return (
-    <>
+    <_.MainContainer>
         <BgImg/>
-    </>
+    </_.MainContainer>
   );
 }
 function First() {
@@ -87,28 +87,7 @@ function Stick(){
 }
 function BgImg(){
     return (
-        <svg
-            width="1536"
-            height="794"
-            viewBox="0 0 1536 794"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <rect width="1536" height="794" fill="url(#paint0_linear_3_515)" />
-            <defs>
-                <linearGradient
-                    id="paint0_linear_3_515"
-                    x1="1536"
-                    y1="397"
-                    x2="1.68215e-05"
-                    y2="397"
-                    gradientUnits="userSpaceOnUse"
-                >
-                    <stop stop-color="#F57278" stop-opacity="0.3" />
-                    <stop offset="1" stop-color="#D9D9D9" stop-opacity="0" />
-                </linearGradient>
-            </defs>
-        </svg>
+        <img src={require("../../Assets/bgImg.jpg")} height="745" alt=""/>
     )
 }
 
