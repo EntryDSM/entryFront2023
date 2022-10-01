@@ -1,4 +1,4 @@
-import * as _ from "../../styles/main/fist/Footer.style";
+import * as _ from "../../styles/main/Footer/Footer.style";
 import { Facebook, Github } from "./Logo";
 
 const Footer = () => {
