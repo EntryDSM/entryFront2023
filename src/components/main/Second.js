@@ -40,7 +40,7 @@ function Second() {
     </_.Container>
   );
 }
-function Stick() {
+export function Stick() {
   return (
     <svg
       width="60"

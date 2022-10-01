@@ -8,11 +8,12 @@ export const Container = styled.div`
   height: 100vh;
   width: 100vw;
   scroll-snap-align: center;
+  background-color: ${(props) => (props.bgColor ? props.bgColor : "#fbfbfb")};
 `;
 export const Title = styled.div`
   font-style: normal;
   font-weight: 800;
-  font-size: 25px;
+  font-size: ${(props) => (props.size ? props.size : "28px")};
   line-height: 28px;
 `;
 /**
