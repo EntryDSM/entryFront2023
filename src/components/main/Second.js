@@ -3,7 +3,7 @@ function Second() {
   return (
     <_.Container>
       <_.Title>졸업생 취업률</_.Title>
-      <Stick />
+      <StickLogo />
       <_.ChartContainer>
         <_.RowBundle>
           <_.RowTitle>2022</_.RowTitle>
@@ -40,7 +40,7 @@ function Second() {
     </_.Container>
   );
 }
-export function Stick() {
+export function StickLogo() {
   return (
     <svg
       width="60"
