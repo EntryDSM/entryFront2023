@@ -1,12 +1,12 @@
 import * as Second from "../../styles/main/Second.style";
 import * as _ from "../../styles/main/Third.style";
-import { Stick } from "./Second";
+import { StickLogo } from "./Second";
 
 function Third() {
   return (
     <Second.Container bgColor="#FFFFFF">
       <Second.Title>What is EntryDSM</Second.Title>
-      <Stick />
+      <StickLogo />
       <_.BoxContainer>
         <_.Box>
           <CalendarIcon />
