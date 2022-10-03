@@ -1,6 +1,18 @@
-position: relative;
-width: 270px;
-height: 300px;
+import * as _ from "../../../styles/main/History.style";
+import first from "../../../Assets/2016.jpg";
 
-background: #FFFFFF;
-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+const Card = ({ imageUrl, year, page, content }) => {
+  return (
+    <_.CardContainer>
+      <_.CardWrapper>
+        <_.Text>{year}</_.Text>
+        <_.CardLine></_.CardLine>
+        <_.Text>{page}장</_.Text>
+      </_.CardWrapper>
+      <_.Img src={imageUrl}></_.Img>
+      <_.CardContent>{content}</_.CardContent>
+    </_.CardContainer>
+  );
+};
+
+export default Card;
