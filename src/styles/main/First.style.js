@@ -7,6 +7,7 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 60px;
+  margin-bottom: 10px;
 `;
 export const TitleContainer = styled.div`
   display: flex;
@@ -24,9 +25,6 @@ export const Title = styled.span`
 export const Button = styled.button`
   width: 90px;
   height: 36px;
-  left: 1246px;
-  top: 12px;
-
   border: 0;
   margin-left: 224px;
   background: #f57278;
@@ -35,11 +33,32 @@ export const Button = styled.button`
   outline: none;
 `;
 /**
- * Main 부분
+ * Img 부분
  */
-export const MainContainer = styled.div`
+export const BgContainer = styled.div`
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  height: calc(100vh - 60px);
 `;
-export const BgImg = styled.img``;
+export const Text = styled.div`
+  font-style: normal;
+  font-weight: 800;
+  font-size: ${(props) => props.textSize};
+  color: white;
+  margin-bottom: ${(props) => props.textGap};
+`;
+export const BrText = styled.span`
+  color: ${(props) => props.textColor};
+`;
+export const BgImg = styled.img`
+  z-index: -1;
+  position: absolute;
+`;
+
+export const MainContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;

@@ -5,7 +5,7 @@ function Header() {
     <>
       <_.HeaderContainer>
         <EntryLogo />
-        <StickLogo />
+        <HeaderStickLogo />
         <_.TitleContainer>
           <_.Title>RECIPT</_.Title>
           <_.Title>ENTRY DSM</_.Title>
@@ -19,19 +19,32 @@ function Header() {
     </>
   );
 }
-function FirstMain() {
+function FirstBg() {
   return (
-    <_.MainContainer>
+    <_.BgContainer>
+      <_.Text textSize="30px" textGap="20px">
+        대덕 <_.BrText textColor="#F57278">소프트웨어</_.BrText> 마이스터
+        고등학교
+      </_.Text>
+      <BgStickLgo />
+      <_.Text textSize="25PX" textGap="20px">
+        <_.BrText textColor="#F57278">입학전형 </_.BrText>
+        시스템
+      </_.Text>
+      <_.Text textSize="60px" textGap="15px">
+        <_.BrText textColor="#F57278">E</_.BrText>ntry
+        <_.BrText textColor="#FF9B9F"> DSM</_.BrText>
+      </_.Text>
       <BgImg />
-    </_.MainContainer>
+    </_.BgContainer>
   );
 }
 function First() {
   return (
-    <>
+    <_.MainContainer>
       <Header />
-      <FirstMain />
-    </>
+      <FirstBg />
+    </_.MainContainer>
   );
 }
 
@@ -71,7 +84,7 @@ function EntryLogo() {
     </svg>
   );
 }
-function StickLogo() {
+function HeaderStickLogo() {
   return (
     <svg
       width="2"
@@ -82,6 +95,33 @@ function StickLogo() {
       style={{ marginLeft: "30px", marginRight: "30px" }}
     >
       <rect width="2" height="24" rx="1" fill="#E3E3E3" />
+    </svg>
+  );
+}
+function BgStickLgo() {
+  return (
+    <svg
+      width="600"
+      height="2"
+      viewBox="0 0 600 2"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      style={{ marginBottom: "20px" }}
+    >
+      <rect width="600" height="2" rx="1" fill="url(#paint0_linear_366_423)" />
+      <defs>
+        <linearGradient
+          id="paint0_linear_366_423"
+          x1="600"
+          y1="1.00082"
+          x2="-5.72233e-06"
+          y2="0.99738"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stop-color="#FFEBEC" />
+          <stop offset="1" stop-color="#F57278" />
+        </linearGradient>
+      </defs>
     </svg>
   );
 }
