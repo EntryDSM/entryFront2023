@@ -7,7 +7,6 @@ export const Container = styled.div`
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  scroll-snap-align: center;
   background-color: ${(props) => (props.bgColor ? props.bgColor : "#fbfbfb")};
 `;
 export const Title = styled.div`
