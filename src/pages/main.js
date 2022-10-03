@@ -4,6 +4,7 @@ import First from "../components/main/First";
 import QnA from "../components/main/QnA/QnA";
 import Second from "../components/main/Second";
 import Third from "../components/main/Third";
+import History from "../components/main/History/History";
 import * as _ from "../styles/main.style";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -14,6 +15,7 @@ function Main() {
       <First />
       <Second />
       <Third />
+      <History></History>
       <Developer></Developer>
       <QnA></QnA>
       <Footer></Footer>
