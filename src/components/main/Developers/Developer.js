@@ -7,6 +7,7 @@ const Developer = () => {
   const arr = [3, 2, 2, 1, 1];
   const [num, setNum] = useState(0);
   const pagingSlickRef = useRef(null);
+  const [throttle, setThrottle] = useState(false);
 
   const settings = {
     dots: false,
@@ -18,27 +19,42 @@ const Developer = () => {
     cssEase: "linear",
     centerMode: true,
     variableWidth: true,
+    draggable: false,
   };
 
   const onClickPrev = useCallback(
     (ref) => () => {
-      ref.current.slickPrev();
-      setNum(num - 1);
-      if (num === 0) {
-        setNum(arr.length - 1);
-      } else {
-        setNum(num - 1);
+      if (throttle) return;
+      if (!throttle) {
+        setThrottle(true);
+        setTimeout(async () => {
+          ref.current.slickPrev();
+          setNum(num - 1);
+          if (num === 0) {
+            setNum(arr.length - 1);
+          } else {
+            setNum(num - 1);
+          }
+          setThrottle(false);
+        }, 500);
       }
     },
     [num]
   );
   const onClickNext = useCallback(
     (ref) => () => {
-      ref.current.slickNext();
-      if (num === arr.length - 1) {
-        setNum(0);
-      } else {
-        setNum(num + 1);
+      if (throttle) return;
+      if (!throttle) {
+        setThrottle(true);
+        setTimeout(async () => {
+          ref.current.slickNext();
+          if (num === arr.length - 1) {
+            setNum(0);
+          } else {
+            setNum(num + 1);
+          }
+          setThrottle(false);
+        }, 500);
       }
     },
     [num]
