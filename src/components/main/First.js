@@ -51,6 +51,9 @@ function First() {
 /**
  * SVG, Img
  */
+function BgImg() {
+  return <_.BgImg src={require("../../Assets/bgImg.png")} alt="" />;
+}
 function EntryLogo() {
   return (
     <svg
@@ -123,11 +126,6 @@ function BgStickLgo() {
         </linearGradient>
       </defs>
     </svg>
-  );
-}
-function BgImg() {
-  return (
-    <_.BgImg src={require("../../Assets/bgImg.png")} height="745" alt="" />
   );
 }
 

@@ -7,7 +7,6 @@ export const HeaderContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 60px;
-  margin-bottom: 10px;
 `;
 export const TitleContainer = styled.div`
   display: flex;
@@ -56,6 +55,8 @@ export const BrText = styled.span`
 export const BgImg = styled.img`
   z-index: -1;
   position: absolute;
+  width: 100vw;
+  height: calc(100vh - 60px);
 `;
 
 export const MainContainer = styled.div`

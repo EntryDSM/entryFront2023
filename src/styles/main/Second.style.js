@@ -23,13 +23,14 @@ export const ChartContainer = styled.div`
   flex-direction: column;
   position: relative;
   gap: 24px;
+  z-index: 1;
 `;
 export const ChartBgContainer = styled.div`
   display: flex;
   width: 742px;
   position: absolute;
   left: 65px;
-  z-index: -99;
+  z-index: -1;
 `;
 export const ChartBg = styled.div`
   width: 150px;
