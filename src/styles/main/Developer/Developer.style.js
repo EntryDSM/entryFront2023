@@ -113,7 +113,7 @@ export const DivPrev = styled.div`
 export const Hider = styled.div`
   position: absolute;
   margin-top: 230px;
-  width: 285px;
+  width: 19.8%;
   height: 360px;
   background-color: #ffffff;
   z-index: 99;

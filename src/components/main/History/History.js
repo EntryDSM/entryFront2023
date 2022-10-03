@@ -36,7 +36,7 @@ const History = () => {
         <_.HistoryTitle>Entry DSM의 역사...</_.HistoryTitle>
         <_.HistoryLine></_.HistoryLine>
         <_.HistoryExplain>
-          약 5년 간 서비스를 제공해온 노하우를 바탕으로 EntryDSM은 지속적인 성장을 이뤄내고 있습니다.
+          약 7년 간 서비스를 제공해온 노하우를 바탕으로 EntryDSM은 지속적인 성장을 이뤄내고 있습니다.
         </_.HistoryExplain>
       </_.HistoryWrapper>
       <_.Cards>
