@@ -86,7 +86,9 @@ function StickLogo() {
   );
 }
 function BgImg() {
-  return <img src={require("../../Assets/bgImg.jpg")} height="745" alt="" />;
+  return (
+    <_.BgImg src={require("../../Assets/bgImg.png")} height="745" alt="" />
+  );
 }
 
 export default First;
