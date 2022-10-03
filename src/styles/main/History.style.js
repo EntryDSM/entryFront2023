@@ -41,6 +41,8 @@ export const HistoryExplain = styled.div`
 
 export const Cards = styled.div`
   display: flex;
+  justify-content: center;
+  position: relative;
   width: 540px;
   height: 300px;
   margin-left: 143px;
@@ -49,10 +51,12 @@ export const Cards = styled.div`
 
 //카드
 export const CardContainer = styled.div`
+  transition: 0.3s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
+  position: absolute;
+  z-index: 0;
   width: 270px;
   height: 300px;
   background: #ffffff;
@@ -63,6 +67,7 @@ export const CardWrapper = styled.div`
   position: absolute;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   margin-left: 16px;
   left: 0px;
@@ -98,4 +103,19 @@ export const CardContent = styled.div`
   font-size: 16px;
   line-height: 18px;
   color: #343434;
+`;
+
+export const LeftArrow = styled.img`
+  position: absolute;
+  left: 60px;
+  top: 140px;
+  z-index: 99;
+  cursor: pointer;
+`;
+export const RightArrow = styled.img`
+  position: absolute;
+  right: 60px;
+  top: 140px;
+  z-index: 98;
+  cursor: pointer;
 `;

@@ -8,10 +8,14 @@ import History from "../components/main/History/History";
 import * as _ from "../styles/main.style";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Helmet from "react-helmet";
 
 function Main() {
   return (
     <_.Container>
+      <Helmet>
+        <title>Entry DSM</title>
+      </Helmet>
       <First />
       <Second />
       <Third />

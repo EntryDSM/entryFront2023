@@ -6,7 +6,7 @@ const Footer = () => {
     <_.FooterContainer>
       <_.InfoContainer>
         <_.Entry>Entry</_.Entry>
-        <_.Text>@ 2021 Entry</_.Text>
+        <_.Text>@ 2022 Entry</_.Text>
         <_.Text>개인정보 처리방침 | 이용약관</_.Text>
         <_.Text>(34111) 대전광역시 유성구 가정북로 76(장동 23-9)</_.Text>
         <_.Text>교무실 : 042-866-8822 / Fax : 042-867-9900 행정실 : 042-866-8885 / Fax : 042-863-4308</_.Text>

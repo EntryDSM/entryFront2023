@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  margin-bottom: 50px;
   gap: 20px;
   margin-top: 60px;
 `;
@@ -157,11 +157,13 @@ export const InterViews = styled.div`
 
 export const InterViewWrapper = styled.div`
   display: flex;
+  align-items: center;
   margin-top: 25px;
   margin-bottom: 30px;
 `;
 
 export const People = styled.div`
+  width: 65px;
   font-family: "NanumSquare_ac";
   font-style: normal;
   font-weight: 500;
@@ -172,6 +174,9 @@ export const People = styled.div`
 
 export const Content = styled.div`
   font-family: "NanumSquare_ac";
+  display: flex;
+  width: 650px;
+  flex-wrap: wrap;
   font-style: normal;
   margin-left: 10px;
   font-weight: 400;
