@@ -7,7 +7,7 @@ export const HeaderContainer = styled.div`
   height: 60px;
   position: fixed;
   background-color: white;
-  z-index: 1000;
+  z-index: 100;
   width: 100vw;
 `;
 export const TitleContainer = styled.div`
