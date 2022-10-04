@@ -4,7 +4,7 @@ export const FooterContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  height: 260px;
+  height: 277px;
   background-color: #ff9b9f;
 `;
 
