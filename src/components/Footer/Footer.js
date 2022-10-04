@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import * as _ from "../../styles/main/Footer/Footer.style";
-import { Facebook, Github } from "./Logo";
+import { Facebook, Github, GithubLogo } from "./Logo";
 
 const Footer = () => {
   return (
@@ -17,8 +18,13 @@ const Footer = () => {
         <_.Text2>시스템 소개</_.Text2>
         <_.Text2>개발자 소개</_.Text2>
         <_.IconContainer>
-          <Facebook></Facebook>
+          <a href="https://www.facebook.com/entrydsm">
+            <Facebook></Facebook>
+          </a>
           <Github></Github>
+          <_.Absolute href="https://github.com/EntryDSM">
+            <GithubLogo></GithubLogo>
+          </_.Absolute>
         </_.IconContainer>
       </_.IntroduceContainer>
     </_.FooterContainer>

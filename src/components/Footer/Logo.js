@@ -19,8 +19,15 @@ export function Facebook() {
 
 export function Github() {
   return (
-    <svg width="35" height="37" viewBox="0 0 35 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect x="0.398438" y="4.25293" width="33" height="31.9737" rx="8" fill="white" />
+    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0.398438" y="0.25293" width="32" height="31.9737" rx="8" fill="white" />
+    </svg>
+  );
+}
+
+export function GithubLogo() {
+  return (
+    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
         fill-rule="evenodd"
         clip-rule="evenodd"
