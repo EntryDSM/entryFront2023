@@ -1,29 +1,25 @@
-import Footer from "../components/Footer/Footer";
+import Footer from "../components/main/Footer/Footer";
 import Developer from "../components/main/Developers/Developer";
-import First from "../components/main/First";
+import Home from "../components/main/Home/Home";
 import QnA from "../components/main/QnA/QnA";
-import Second from "../components/main/Second";
-import Third from "../components/main/Third";
-import History from "../components/main/History/History";
+import Chart from "../components/main/chart/chart";
+import Introduce from "../components/main/introduce/introduce";
 import * as _ from "../styles/main.style";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Helmet from "react-helmet";
+import Header from "../components/main/Header/Header";
 
 function Main() {
   return (
-    <_.Container>
-      <Helmet>
-        <title>Entry DSM</title>
-      </Helmet>
-      <First />
-      <Second />
-      <Third />
-      <History></History>
-      <Developer></Developer>
-      <QnA></QnA>
-      <Footer></Footer>
-    </_.Container>
+    <div style={{"scroll-"}}>
+        <Header/>
+      <div id="home"><Home/></div>
+      <div id="chart"><Chart id="chart"/></div>
+      <div id="introduce"><Introduce id="introduce"/></div>
+      <div id="developer"><Developer id="developer"/></div>
+      <div id="qna"><QnA/></div>
+      <Footer/>
+    </div>
   );
 }
 

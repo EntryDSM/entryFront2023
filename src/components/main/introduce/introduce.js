@@ -1,8 +1,8 @@
-import * as Second from "../../styles/main/Second.style";
-import * as _ from "../../styles/main/Third.style";
-import { StickLogo } from "./Second";
+import * as Second from "../../../styles/main/chart.style";
+import * as _ from "../../../styles/main/introduce";
+import { StickLogo } from "../chart/Logo";
 
-function Third() {
+function Introduce() {
   return (
     <Second.Container bgColor="#FFFFFF">
       <Second.Title>What is EntryDSM</Second.Title>
@@ -90,4 +90,4 @@ function CompouterIcon() {
     </svg>
   );
 }
-export default Third;
+export default Introduce;

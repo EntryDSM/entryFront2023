@@ -23,6 +23,7 @@ export const ChartContainer = styled.div`
   flex-direction: column;
   position: relative;
   gap: 24px;
+  margin-top: 50px;
   z-index: 1;
 `;
 export const ChartBgContainer = styled.div`
@@ -30,6 +31,7 @@ export const ChartBgContainer = styled.div`
   width: 742px;
   position: absolute;
   left: 65px;
+  top: -50px;
   z-index: -1;
 `;
 export const ChartBg = styled.div`
