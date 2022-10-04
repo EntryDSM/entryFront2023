@@ -73,6 +73,7 @@ export const Grade = styled.div`
 //Slick
 export const StyledSlider = styled(Slick)`
   width: 100vw;
+  overflow: hidden;
   text-align: center;
   .slick-prev::before,
   .slick-next::before {
