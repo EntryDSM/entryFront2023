@@ -9,25 +9,29 @@ import "slick-carousel/slick/slick-theme.css";
 import Header from "../components/main/Header/Header";
 import Footer from "../components/Footer/Footer";
 import History from "../components/main/History/History";
+import Helmet from "react-helmet";
 
 function Main() {
   return (
     <_.Container>
+      <Helmet>
+        <title>Entry DSM</title>
+      </Helmet>
       <Header />
       <div id="home">
         <Home />
       </div>
       <div id="chart">
-        <Chart/>
+        <Chart />
       </div>
       <div id="introduce">
-        <Introduce/>
+        <Introduce />
       </div>
-        <div id="history">
-            <History/>
-        </div>
+      <div id="history">
+        <History />
+      </div>
       <div id="developer">
-        <Developer/>
+        <Developer />
       </div>
       <div id="qna">
         <QnA />
