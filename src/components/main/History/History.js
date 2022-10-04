@@ -12,7 +12,7 @@ import Left from "../../../Assets/LeftArrow.png";
 import Right from "../../../Assets/RightArrow.png";
 
 const History = () => {
-  const [page, setPage] = useState(2);
+  const [page, setPage] = useState(1);
 
   const Prev = () => {
     if (page === 1) {

@@ -15,9 +15,8 @@ export const Cards = styled.div`
   display: grid;
   margin-left: 5px;
   margin-top: 240px;
-  overflow: hidden;
   width: 870px;
-  height: 340px;
+  height: 350px;
   grid-template-columns: repeat(3, 2fr);
   gap: 10px;
 `;
@@ -74,7 +73,7 @@ export const Grade = styled.div`
 
 //Slick
 export const StyledSlider = styled(Slick)`
-  width: 100vw;
+  /* width: 100vw; */
   overflow: hidden;
   text-align: center;
   .slick-prev::before,
@@ -117,7 +116,7 @@ export const DivPrev = styled.div`
 export const Hider = styled.div`
   position: absolute;
   margin-top: 230px;
-  width: 19.8%;
+  width: 284px;
   height: 360px;
   background-color: #ffffff;
   z-index: 99;
