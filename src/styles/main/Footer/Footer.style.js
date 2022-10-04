@@ -48,8 +48,14 @@ export const Text2 = styled(Text)`
 `;
 
 export const IconContainer = styled.div`
+  position: relative;
   display: flex;
-  align-items: center;
   margin-top: 20px;
   gap: 10px;
+`;
+
+export const Absolute = styled.a`
+  position: absolute;
+  right: 1px;
+  bottom: 3px;
 `;
