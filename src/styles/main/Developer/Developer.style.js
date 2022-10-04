@@ -15,6 +15,7 @@ export const Cards = styled.div`
   display: grid;
   margin-left: 5px;
   margin-top: 240px;
+  overflow: hidden;
   width: 870px;
   height: 340px;
   grid-template-columns: repeat(3, 2fr);
