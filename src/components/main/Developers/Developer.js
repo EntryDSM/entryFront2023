@@ -60,10 +60,14 @@ const Developer = () => {
     [num]
   );
 
+  const Width = () => {
+    return `${1440 - window.screen.width}px`;
+  };
+
   return (
     <_.DevContainer>
-      <_.LeftHider></_.LeftHider>
-      <_.RightHider></_.RightHider>
+      <_.LeftHider style={{ left: Width() }}></_.LeftHider>
+      <_.RightHider style={{ right: Width() }}></_.RightHider>
       <_.Title>Entry DSM 개발 인원</_.Title>
       <_.Line></_.Line>
       <_.Explain>Entry DSM을 개발한 인원들을 소개합니다</_.Explain>
