@@ -18,7 +18,8 @@ export const Box = styled.div`
 export const Text = styled.textarea`
   border: 0;
   font-style: normal;
-  font-weight: 400;
+  font-family: "NanumSquare_ac";
+  font-weight: 350;
   font-size: 16px;
   line-height: 20px;
   width: 230px;
