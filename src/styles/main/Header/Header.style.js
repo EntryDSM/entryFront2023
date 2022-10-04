@@ -14,7 +14,7 @@ export const TitleContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 602px;
+  gap: 25px;
 `;
 export const Title = styled.span`
   font-style: normal;

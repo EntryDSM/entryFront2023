@@ -26,7 +26,7 @@ function Header() {
             <a href="#qna">MEMBER Q&A</a>
           </_.Title>
         </_.TitleContainer>
-        <_.Button>지원하기</_.Button>
+        <_.Button><a href="https://apply.entrydsm.hs.kr/">지원하기</a></_.Button>
       </_.HeaderContainer>
   );
 }
