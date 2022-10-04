@@ -162,7 +162,7 @@ export const InterViewWrapper = styled.div`
 `;
 
 export const People = styled.div`
-  width: 65px;
+  width: 70px;
   font-family: "NanumSquare_ac";
   font-style: normal;
   font-weight: 500;
