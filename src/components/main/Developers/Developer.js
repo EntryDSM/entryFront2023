@@ -61,7 +61,7 @@ const Developer = () => {
   );
 
   const Width = () => {
-    return `${window.screen.width - 1440 + 283}px`;
+    return `${(window.screen.width - 875) / 2}px`;
   };
 
   return (
