@@ -11,6 +11,7 @@ export const DevContainer = styled.div`
 `;
 
 export const Cards = styled.div`
+  overflow: hidden;
   display: grid;
   margin-left: 5px;
   margin-top: 240px;
