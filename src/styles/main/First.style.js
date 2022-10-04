@@ -25,6 +25,8 @@ export const Button = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "NanumSquare_ac";
+  font-weight: 350;
   width: 90px;
   height: 36px;
   cursor: pointer;
