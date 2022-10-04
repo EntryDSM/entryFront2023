@@ -8,28 +8,32 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Header from "../components/main/Header/Header";
 import Footer from "../components/Footer/Footer";
+import History from "../components/main/History/History";
 
 function Main() {
   return (
-    <div>
+    <_.Container>
       <Header />
       <div id="home">
         <Home />
       </div>
       <div id="chart">
-        <Chart id="chart" />
+        <Chart/>
       </div>
       <div id="introduce">
-        <Introduce id="introduce" />
+        <Introduce/>
       </div>
+        <div id="history">
+            <History/>
+        </div>
       <div id="developer">
-        <Developer id="developer" />
+        <Developer/>
       </div>
       <div id="qna">
         <QnA />
       </div>
       <Footer />
-    </div>
+    </_.Container>
   );
 }
 

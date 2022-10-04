@@ -8,19 +8,19 @@ function Header() {
         <HeaderStickLogo />
         <_.TitleContainer>
           <_.Title>
-            <a href="#home">RECIPT</a>
+            <a href="#home">ENTRY DSM</a>
           </_.Title>
           <_.Title>
-            <a href="#chart">ENTRY DSM</a>
+            <a href="#chart">EMPLOYMENT</a>
           </_.Title>
           <_.Title>
-            <a href="#introduce">PORTFOLIO</a>
+            <a href="#introduce">INTRODUCE</a>
           </_.Title>
           <_.Title>
-            <a href="#developer">HISTORY</a>
+            <a href="#history">HISTORY</a>
           </_.Title>
           <_.Title>
-            <a href="#qna">TEAM</a>
+            <a href="#developer">TEAM</a>
           </_.Title>
           <_.Title>
             <a href="#qna">MEMBER Q&A</a>
