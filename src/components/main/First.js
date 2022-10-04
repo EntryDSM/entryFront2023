@@ -7,7 +7,7 @@ function Header() {
         <EntryLogo />
         <HeaderStickLogo />
         <_.TitleContainer>
-          <_.Title>RECIPT</_.Title>
+          <_.Title href="#recipt">RECIPT</_.Title>
           <_.Title>ENTRY DSM</_.Title>
           <_.Title>PORTFOLIO</_.Title>
           <_.Title>HISTORY</_.Title>
@@ -23,8 +23,7 @@ function FirstBg() {
   return (
     <_.BgContainer>
       <_.Text textSize="30px" textGap="20px">
-        대덕 <_.BrText textColor="#F57278">소프트웨어</_.BrText> 마이스터
-        고등학교
+        대덕 <_.BrText textColor="#F57278">소프트웨어</_.BrText> 마이스터 고등학교
       </_.Text>
       <BgStickLgo />
       <_.Text textSize="25PX" textGap="20px">
@@ -66,16 +65,8 @@ function EntryLogo() {
     >
       <rect width="88" height="28" fill="url(#pattern0)" />
       <defs>
-        <pattern
-          id="pattern0"
-          patternContentUnits="objectBoundingBox"
-          width="1"
-          height="1"
-        >
-          <use
-            xlinkHref="#image0_2_162"
-            transform="translate(-0.00858984) scale(0.00250537 0.00787402)"
-          />
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlinkHref="#image0_2_162" transform="translate(-0.00858984) scale(0.00250537 0.00787402)" />
         </pattern>
         <image
           id="image0_2_162"
