@@ -21,8 +21,8 @@ export const Cards = styled.div`
 
 export const Title = styled.div`
   position: absolute;
-  width: 227px;
-  height: 28px;
+  /* width: 227px; */
+  /* height: 28px; */
   left: 250px;
   margin-top: 78px;
   font-family: "NanumSquare_ac";
@@ -45,8 +45,8 @@ export const Line = styled.div`
 
 export const Explain = styled.div`
   position: absolute;
-  width: 335px;
-  height: 22px;
+  /* width: 335px; */
+  /* height: 22px; */
   left: 250px;
   margin-top: 137px;
   font-family: "NanumSquare_ac";
