@@ -14,7 +14,7 @@ function Header() {
           <_.Title>TEAM</_.Title>
           <_.Title>MEMBER Q&A</_.Title>
         </_.TitleContainer>
-        <_.Button>지원하기</_.Button>
+        <_.Button href="https://apply.entrydsm.hs.kr/">지원하기</_.Button>
       </_.HeaderContainer>
     </>
   );
