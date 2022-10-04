@@ -21,9 +21,13 @@ export const Title = styled.span`
   line-height: 20px;
   color: #242424;
 `;
-export const Button = styled.button`
+export const Button = styled.a`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 90px;
   height: 36px;
+  cursor: pointer;
   border: 0;
   margin-left: 224px;
   background: #f57278;
