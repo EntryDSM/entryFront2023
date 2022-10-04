@@ -7,6 +7,7 @@ export const DevContainer = styled.div`
   width: 100vw;
   height: 100vh;
   background-color: #ffffff;
+  overflow: hidden;
 `;
 
 export const Cards = styled.div`
