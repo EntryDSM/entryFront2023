@@ -14,15 +14,21 @@ const Footer = () => {
         <_.Text>Entrepreneur</_.Text>
       </_.InfoContainer>
       <_.IntroduceContainer>
-        <_.Text2><a href="#home">Entry 소개</a></_.Text2>
-        <_.Text2><a href="#introduce">시스템 소개</a></_.Text2>
-        <_.Text2><a href="#developer">개발자 소개</a></_.Text2>
+        <_.Text2>
+          <a href="#home">Entry 소개</a>
+        </_.Text2>
+        <_.Text2>
+          <a href="#introduce">시스템 소개</a>
+        </_.Text2>
+        <_.Text2>
+          <a href="#developer">개발자 소개</a>
+        </_.Text2>
         <_.IconContainer>
-          <a href="https://www.facebook.com/entrydsm">
+          <a target="_blank" href="https://www.facebook.com/entrydsm">
             <Facebook></Facebook>
           </a>
           <Github></Github>
-          <_.Absolute href="https://github.com/EntryDSM">
+          <_.Absolute target="_blank" href="https://github.com/EntryDSM">
             <GithubLogo></GithubLogo>
           </_.Absolute>
         </_.IconContainer>
