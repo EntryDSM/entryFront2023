@@ -15,7 +15,7 @@ export const Cards = styled.div`
   display: grid;
   margin-left: 5px;
   margin-top: 240px;
-  width: 870px;
+  width: 875px;
   height: 350px;
   grid-template-columns: repeat(3, 2fr);
   gap: 10px;
@@ -116,7 +116,8 @@ export const DivPrev = styled.div`
 export const Hider = styled.div`
   position: absolute;
   margin-top: 230px;
-  width: 284px;
+  width: 19.6%;
+  max-width: 500px;
   height: 360px;
   background-color: #ffffff;
   z-index: 99;
