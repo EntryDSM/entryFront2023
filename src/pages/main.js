@@ -11,7 +11,7 @@ import Header from "../components/main/Header/Header";
 
 function Main() {
   return (
-    <div style={{"scroll-"}}>
+    <div>
         <Header/>
       <div id="home"><Home/></div>
       <div id="chart"><Chart id="chart"/></div>
