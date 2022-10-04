@@ -2,6 +2,7 @@ import styled from "styled-components";
 import Slick from "react-slick";
 
 export const DevContainer = styled.div`
+  position: relative;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -11,7 +12,6 @@ export const DevContainer = styled.div`
 `;
 
 export const Cards = styled.div`
-  overflow: hidden;
   display: grid;
   margin-left: 5px;
   margin-top: 240px;
