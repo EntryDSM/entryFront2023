@@ -36,7 +36,7 @@ const QnA = () => {
           <_.Line
             onClick={() =>
               onClick(
-                "EntryDSM을 만드시면서 어떤 기분이 들으셨나요?",
+                "팀 엔트리는 본인에게 어떤 의미인가요?",
                 "강석현",
                 "오상우",
                 "이준서",
@@ -48,7 +48,7 @@ const QnA = () => {
           >
             <_.QuestionWrapper>
               <_.Number>1.</_.Number>
-              <_.Text>EntryDSM을 만드시면서 어떤 기분이 들으셨나요?</_.Text>
+              <_.Text>팀 엔트리는 본인에게 어떤 의미인가요?</_.Text>
             </_.QuestionWrapper>
             <_.QuestionWrapper>
               <Search></Search>
@@ -90,7 +90,9 @@ const QnA = () => {
           >
             <_.QuestionWrapper>
               <_.Number>3.</_.Number>
-              <_.Text>동아리 활동하면서 가장 뿌듯했던 순간은 언제인가요?</_.Text>
+              <_.Text>
+                동아리 활동하면서 가장 뿌듯했던 순간은 언제인가요?
+              </_.Text>
             </_.QuestionWrapper>
             <_.QuestionWrapper>
               <Search></Search>
