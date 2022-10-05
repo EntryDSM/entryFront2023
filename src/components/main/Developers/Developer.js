@@ -19,7 +19,7 @@ import Entry29 from "../../../Assets/ProfileImg/2-9.jpg";
 import Entry11 from "../../../Assets/ProfileImg/1-1.jpg";
 import Entry12 from "../../../Assets/ProfileImg/1-2.jpg";
 import Entry13 from "../../../Assets/ProfileImg/1-3.jpg";
-import Entry14 from "../../../Assets/ProfileImg/1-4.jpg";
+import Entry14 from "../../../Assets/ProfileImg/1-4.svg";
 import Entry15 from "../../../Assets/ProfileImg/1-5.jpg";
 import Entry16 from "../../../Assets/ProfileImg/1-6.jpg";
 import Entry17 from "../../../Assets/ProfileImg/1-7.jpg";
