@@ -9,13 +9,15 @@ export const Container = styled.div`
   border-radius: 5px;
 `;
 
-export const Box = styled.div`
+export const Box = styled.img`
   width: 140px;
   height: 140px;
   margin-left: 10px;
   margin-top: 10px;
   background: #f0f0f0;
   border-radius: 5px;
+  border: 0;
+  outline: 0;
 `;
 
 export const InfoWrapper = styled.div`
