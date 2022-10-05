@@ -89,7 +89,7 @@ const History = () => {
           year="2022"
           page={7}
           current={page}
-          content="기존 랜딩 페이지에 대한 피드백을 반영해 디자인을 재구성하였고, 2023 학년도 신입생을 반기는 마음으로 기존 LTS 코드를 유지보수 하였습니다."
+          content="기존 랜딩 페이지에 대한 피드백을 반영해 디자인을 재구성하였고, 2023 학년도 신입생을 반기는 마음으로 기존 LTS 코드를 유지 보수 하였습니다."
         ></Card>
         <_.LeftArrow src={Left} onClick={Prev} />
         <_.RightArrow src={Right} onClick={Next} />
