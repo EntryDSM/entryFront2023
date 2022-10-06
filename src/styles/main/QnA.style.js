@@ -75,7 +75,6 @@ export const ModalBackground = styled.div`
   bottom: 0;
   right: 0;
   box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.6);
   z-index: 100;
 `;
 
@@ -182,4 +181,11 @@ export const Content = styled.div`
   font-size: 18px;
   line-height: 20px;
   color: #434343;
+`;
+
+export const Back = styled.div`
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
 `;
